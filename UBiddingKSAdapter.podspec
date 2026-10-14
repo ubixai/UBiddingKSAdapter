@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiddingKSAdapter'
-  s.version          = '5.7.20.1.1'
+  s.version          = '5.9.10.1.0'
   s.summary          = 'UBiddingKSAdapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.vendored_frameworks = 'UBiddingKSAdapter.xcframework'
 
-  s.dependency 'KSAdSDK', '5.7.20.1'
+  s.dependency 'KSAdSDK', '5.9.10.1'
   s.dependency 'UBiddingAdSDK'
 end
